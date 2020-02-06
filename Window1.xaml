@@ -12,7 +12,9 @@
       <local:ImageList x:Name="ctrImageList"/>
     </TabItem>
     <TabItem Header="Edit Customer">
-      <!-- Place the Customer Edit Control here-->
+            <local:CustomerEdit x:Name="ctrCustomerEdit"/>
+
+            <!-- Place the Customer Edit Control here-->
     </TabItem>
   </TabControl>
 </Window>
